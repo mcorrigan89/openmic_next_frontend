@@ -1,0 +1,51 @@
+{
+  "name": "frontend_seed",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "codegen": "gql-gen --config codegen.ts"
+  },
+  "dependencies": {
+    "@conform-to/react": "^1.1.5",
+    "@conform-to/zod": "^1.1.5",
+    "@radix-ui/react-avatar": "^1.0.4",
+    "@radix-ui/react-label": "^2.0.2",
+    "@radix-ui/react-slot": "^1.0.2",
+    "@tanstack/react-query": "^5.45.1",
+    "@trpc/client": "11.0.0-rc.403",
+    "@trpc/next": "11.0.0-rc.403",
+    "@trpc/react-query": "11.0.0-rc.403",
+    "@trpc/server": "11.0.0-rc.403",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "gql.tada": "^1.7.6",
+    "graphql": "^16.8.2",
+    "graphql-request": "^7.0.1",
+    "lucide-react": "^0.395.0",
+    "next": "15.0.0-rc.0",
+    "react": "19.0.0-rc-f994737d14-20240522",
+    "react-dom": "19.0.0-rc-f994737d14-20240522",
+    "superjson": "^2.2.1",
+    "tailwind-merge": "^2.3.0",
+    "tailwindcss-animate": "^1.0.7",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@0no-co/graphqlsp": "^1.12.8",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "babel-plugin-react-compiler": "0.0.0-experimental-938cd9a-20240601",
+    "eslint": "^8",
+    "eslint-config-next": "15.0.0-rc.0",
+    "postcss": "^8",
+    "prettier": "^3.3.2",
+    "prettier-plugin-tailwindcss": "^0.6.5",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.4.5"
+  }
+}
